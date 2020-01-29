@@ -3,6 +3,7 @@ body {
 }
 #effets div {
     background: red;
-    height: 40px;
+    height: 100px;
+    marge : 2px;
    
 }
