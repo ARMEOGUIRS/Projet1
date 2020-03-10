@@ -11,6 +11,8 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
+        <link href="scss/style.scss" rel="stylesheet">
+        <link href="scss/style.css" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     </head>
@@ -23,13 +25,85 @@ and open the template in the editor.
                 </nav>
             </header>
             <section class="row">
+                <p class="exemple1">TEST</p>
+                <p class="exemple2">TEST</p>
+                <p class="exemple3">TEST</p>
                 <div class="col-6">Ma première colonne</div>
                 <div class="col-6">Ma deuxième colonne</div>
             </section>
+             <a id="show" class="btn btn-outline-danger">Réapparition !</a>
+       
             <section id="effets" class="row">
-              
-                <div class="col-1"></div>
+               
+                  <div class="col-1"></div>
             </section>
+             
+            <section id= "animate" class="row"> 
+                <div id="box1" class="col-1"></div>
+                <div id="box2" class="col-1"></div>
+                <div id="box3" class="col-1"></div>
+            </section>
+             <section id="animate" class="row">
+                 <div class="col-2">
+                     test
+                 </div>
+                 <div class="col-2">
+                    test2
+                </div>
+                 <div class="col-2">
+                    test3
+                </div>
+             </section>
+             <section id="écureuil" class="row"> 
+                 <button id="no-alerte" class="col-1">NON</button>
+                 <button id="plus" class="col-1 btn btn-outline-danger">Ajouter</button>
+                  <button id="moins" class="col-1 btn btn-outline-danger">Enlever</button>
+                 <ul class="col-12">
+                     <li>ma première ligne</li>
+                     <li><a href="#">liste 2</a></li>
+                     <li>liste 3</li>
+                     <li><a href="#">liste 4</a></li>
+                     <li>liste 5</li>
+                     <li>liste 6</li>
+                 </ul>
+             </section>
+             <section class="row" id="toggle">
+                 <button id="theToggle" class="col-1">Click me !</button>
+                 <button id="plusgrand" class="col-2 btn btn-outline-danger taille">Plus grand</button>
+                 <button id="pluspetit" class="col-2 btn btn-outline-danger taille">Plus petit</button>
+                 <div id="maBoite" class="col-12">Ma belle boite !</div>
+                 <p class="col-12">Ceci est un paragraphe</p>
+                 <p class="col-12">Ceci est un paragraphe</p>
+                 <p class="col-12">Ceci est un paragraphe</p>
+                 <p class="col-12">Ceci est un paragraphe</p>
+                 <p class="col-12">Ceci est un paragraphe</p>
+                 <p class="col-12">Ceci est un paragraphe</p>
+             </section>
+             <section id="photos" class="row">
+                 <nav class="col-1">
+                     <ul>
+                         <li><img src="images/vignette1.jpg" alt="vignette 1"></li>
+                         <li><img src="images/vignette2.jpg" alt="vignette 2"></li>
+                         <li><img src="images/vignette3.jpg" alt="vignette 3"></li>
+                         <li><img src="images/vignette4.jpg" alt="vignette 4"></li>
+                         <li><img src="images/vignette5.jpg" alt="vignette 5"></li>
+                         <li><img src="images/vignette6.jpg" alt="vignette 6"></li>
+                         <li><img src="images/vignette7.jpg" alt="vignette 7"></li>
+                         <li><img src="images/vignette8.jpg" alt="vignette 8"></li>
+                     </ul>
+                 </nav>
+                 <div class="col-11">
+                     <img src="images/photo1.jpg" alt="photo 1">
+                     <img src="images/photo2.jpg" alt="photo 2">
+                     <img src="images/photo3.jpg" alt="photo 3">
+                     <img src="images/photo4.jpg" alt="photo 4">
+                     <img src="images/photo5.jpg" alt="photo 5">
+                     <img src="images/photo6.jpg" alt="photo 6">
+                     <img src="images/photo7.jpg" alt="photo 7">
+                     <img src="images/photo8.jpg" alt="photo 8">
+                 </div>
+             </section>
+             
         </div>
         <script src="monJS.js"></script>
     </body>

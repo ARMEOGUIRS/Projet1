@@ -4,6 +4,42 @@ body {
 #effets div {
     background: red;
     height: 100px;
-    marge : 2px;
+    margin : 2px;
    
+}
+#test div, #animate div, #maBoite {
+    background : blue;
+    height: 100px;
+    margin : 2px;
+}
+.alerte{
+    color:red;
+}
+
+.highlight{
+    background-color: yellow;
+}
+.bordure{
+    border: 5px solid black;
+}
+.vert{
+    background-color: green !important;
+}
+#toggle p{
+    font-size: 1em;
+}
+
+#photos div img{
+    display: none;
+}
+#photos nav ul {
+    list-style: none;
+    padding: 0;
+}
+#photos nav li{
+    margin-bottom: 10px;
+}
+#photos nav li img{
+    max-width: 100%;
+    height: auto;
 }
