@@ -1,0 +1,31 @@
+$mobile-max: 767px;
+$tablet: 768px;
+$tablet-max: 991px;
+$desktop: 992px;
+body{
+    background-color : red;
+}
+@media (min-wigth: $tablet){
+    body{
+        background-color: yellow;
+    }
+    .tablet{
+        display: block;
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        article{
+            width: 100%;
+            background: white;
+            margin: 5px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+    }
+}
+@media (min-width: $desktop){
+    body{
+        background-color: blue;
+    }
+}
